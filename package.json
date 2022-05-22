@@ -1,0 +1,31 @@
+{
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/c8-config/issues"
+  },
+  "description": "c8 Configuration Files and rules",
+  "devDependencies": {
+    "c8": "^7.11.3"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://c8-config.dev",
+  "keywords": [
+    "c8"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@sebastienrousseau/c8-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/c8-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "version": "0.0.1"
+}

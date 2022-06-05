@@ -10,10 +10,12 @@ module.exports = {
     "node_modules/*",
     "docs/*"
   ],
-  "extension": [".js"],
+  "extension": [".js",".ts"],
   "functions": 100,
   "include": [
     "index.js",
+    "index.ts",
+    "src/**/*.ts",
     "src/**/*.js"
   ],
   "lines": 100,

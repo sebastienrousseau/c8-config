@@ -19,14 +19,7 @@ module.exports = {
     "src/**/*.js"
   ],
   "lines": 100,
-  "reporter": [
-    "cobertura",
-    "html",
-    "html-spa",
-    "lcov",
-    "text",
-    "text-summary"
-  ],
+  "reporter": ["text", "lcov"],
   "reports-dir": "./coverage",
   "skip-full": false,
   "sourceMap": true,

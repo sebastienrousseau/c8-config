@@ -34,7 +34,8 @@
     "index.mjs",
     "index.cjs",
     "index.d.ts",
-    "c8-config.svg"
+    "c8-config.svg",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"

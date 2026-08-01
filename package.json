@@ -1,31 +1,51 @@
 {
-  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-  "bugs": {
-    "url": "https://github.com/sebastienrousseau/c8-config/issues"
-  },
-  "description": "c8 Configuration Files and rules",
-  "devDependencies": {
-    "c8": "^7.11.3"
-  },
-  "files": [
-    "index.js"
-  ],
-  "homepage": "https://c8-config.dev",
-  "keywords": [
-    "c8"
-  ],
-  "license": "ISC",
-  "main": "index.js",
   "name": "@sebastienrousseau/c8-config",
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "1.0.0",
+  "description": "Shareable c8 code coverage configuration files and rules",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/c8-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebastienrousseau/c8-config.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/c8-config/issues"
   },
-  "version": "0.0.3"
+  "keywords": [
+    "c8",
+    "coverage",
+    "v8",
+    "istanbul",
+    "testing"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "c8": ">=8.0.0"
+  },
+  "devDependencies": {
+    "c8": "^9.0.0"
+  }
 }

@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: ISC -->
 
 <p align="center">
-  <img src="https://cloudcdn.pro/beonux/v1/logos/beonux.svg" alt="c8-config logo" width="128" />
+  <img src="./c8-config.svg" alt="c8-config logo" width="128" />
 </p>
 
 <h1 align="center">@sebastienrousseau/c8-config</h1>

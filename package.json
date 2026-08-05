@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/c8-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable c8 code coverage configuration files and rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
@@ -49,6 +49,6 @@
     "c8": ">=8.0.0"
   },
   "devDependencies": {
-    "c8": "^9.0.0"
+    "c8": "^12.0.0"
   }
 }

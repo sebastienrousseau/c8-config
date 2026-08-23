@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: ISC -->
+<!-- SPDX-License-Identifier: Apache-2.0 OR MIT>
 
 <p align="center">
   <img src="./c8-config.svg" alt="c8-config logo" width="128" />

@@ -1,12 +1,6 @@
 /**
- * Advanced usage example with custom overrides for @sebastienrousseau/c8-config
+ * Advanced usage example for @sebastienrousseau/c8-config
  */
-const baseConfig = require("../index.cjs");
-
-const customConfig = Object.assign({}, baseConfig, {
-  _custom: true,
-  _timestamp: new Date().toISOString()
-});
-
-console.log("Custom extended configuration created:");
-console.log(customConfig._custom ? "Custom configuration active" : "Error");
+const base = require("../index.cjs");
+const custom = { ...base, lines: 95, branches: 95 };
+console.log("Relaxed threshold lines:", custom.lines);

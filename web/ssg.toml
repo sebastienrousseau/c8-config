@@ -1,7 +1,7 @@
 site_name = "c8-config"
 site_title = "@sebastienrousseau/c8-config — Shareable c8 code coverage configuration files and rules"
 site_description = "Shareable c8 code coverage configuration files and rules"
-base_url = "https://config.sebastienrousseau.com/c8-config"
+base_url = "https://sebastienrousseau.com/c8-config/"
 language = "en-GB"
 
 content_dir = "web/content"

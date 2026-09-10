@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * 100% Feature Showcase for @sebastienrousseau/c8-config
  */
@@ -14,6 +17,8 @@ assert.deepStrictEqual(config.reporter, ["text", "lcov", "html"]);
 assert.strictEqual(config["check-coverage"], true);
 
 console.log("  ✓ All files flag: true");
-console.log("  ✓ Strict 100% coverage gates (branches, functions, lines, statements)");
+console.log(
+  "  ✓ Strict 100% coverage gates (branches, functions, lines, statements)",
+);
 console.log("  ✓ Reporters: text, lcov, html");
 console.log("✅ 100% of c8-config thresholds and options validated.");

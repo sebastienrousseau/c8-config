@@ -48,7 +48,7 @@
     "docs:build": "bash scripts/build-docs.sh",
     "test:conformance": "node --test tests/conformance.test.js",
     "fuzz": "node fuzz/fuzz_config.js",
-    "validate": "c8 --config index.cjs --check-coverage=false node -e \"0\""
+    "validate": "node scripts/validate.mjs"
   },
   "peerDependencies": {
     "c8": ">=8.0.0"

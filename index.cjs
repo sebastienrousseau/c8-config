@@ -1,34 +1,37 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * Modern c8 CommonJS Configuration
  */
 module.exports = {
-  "all": true,
-  "branches": 100,
-  "cache": false,
+  all: true,
+  branches: 100,
+  cache: false,
   "check-coverage": true,
-  "clean": true,
-  "exclude": [
+  clean: true,
+  exclude: [
     "coverage/*",
     "dist/*",
     "node_modules/*",
     "docs/*",
     "test/*",
-    "__tests__/*"
+    "__tests__/*",
   ],
-  "extension": [".js", ".ts", ".mjs", ".cjs"],
-  "functions": 100,
-  "include": [
+  extension: [".js", ".ts", ".mjs", ".cjs"],
+  functions: 100,
+  include: [
     "index.js",
     "index.mjs",
     "index.cjs",
     "index.ts",
     "src/**/*.ts",
-    "src/**/*.js"
+    "src/**/*.js",
   ],
-  "lines": 100,
-  "reporter": ["text", "lcov", "html"],
+  lines: 100,
+  reporter: ["text", "lcov", "html"],
   "reports-dir": "./coverage",
   "skip-full": false,
-  "sourceMap": true,
-  "statements": 100
+  sourceMap: true,
+  statements: 100,
 };

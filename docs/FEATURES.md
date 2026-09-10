@@ -23,20 +23,26 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. All Files Inspection
+
 Enforces coverage across untouched source files (`all: true`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Branch Threshold
+
 Demands 100% branch test coverage (`branches: 100`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Function Threshold
+
 Demands 100% function test coverage (`functions: 100`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Line Threshold
+
 Demands 100% line test coverage (`lines: 100`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 5. Statement Threshold
+
 Demands 100% statement test coverage (`statements: 100`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 6. Multi-Format Reporting
+
 Emits text, lcov, and html reports simultaneously. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 

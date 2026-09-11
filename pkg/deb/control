@@ -1,0 +1,18 @@
+Source: node-sebastienrousseau-c8-config
+Section: javascript
+Priority: optional
+Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/sebastienrousseau/c8-config
+Rules-Requires-Root: no
+
+Package: node-sebastienrousseau-c8-config
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 20)
+Description: Shareable c8 code coverage configuration files and rules
+ @sebastienrousseau/c8-config is a shareable configuration preset with no runtime
+ dependencies: inert data plus a loader.
+ .
+ Installed under /usr/share/nodejs so that require() resolves it without
+ further configuration.

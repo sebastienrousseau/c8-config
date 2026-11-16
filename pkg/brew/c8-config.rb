@@ -6,7 +6,7 @@
 class C8Config < Formula
   desc "Shareable c8 code coverage configuration files and rules"
   homepage "https://github.com/sebastienrousseau/c8-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/c8-config/-/c8-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/c8-config/-/c8-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
